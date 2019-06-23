@@ -1,0 +1,5 @@
+<launch>
+    <!-- My Package launch file -->
+    <node pkg="action_client_pkg" type="ardrone_action_client" name="drone_action_client"  output="screen">
+    </node>
+</launch>

@@ -1,0 +1,5 @@
+<launch>
+    <!-- My Package launch file -->
+    <node pkg="topic_publisher_pkg" type="simple_velocity_publisher" name="move_forward"  output="screen">
+    </node>
+</launch>

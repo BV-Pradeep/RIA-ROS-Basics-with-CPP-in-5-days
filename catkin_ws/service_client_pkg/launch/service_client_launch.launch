@@ -1,0 +1,5 @@
+<launch>
+    <!-- My Package launch file -->
+    <node pkg="service_client_pkg" type="simple_service_client" name="service_client"  output="screen">
+    </node>
+</launch>

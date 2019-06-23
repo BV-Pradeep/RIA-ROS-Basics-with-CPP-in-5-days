@@ -1,0 +1,11 @@
+<launch>
+
+  <include file="$(find iri_wam_reproduce_trajectory)/launch/start_service.launch"/>
+
+  <node pkg ="service_client_pkg"
+        type="execute_trajectory"
+        name="execute_trajectory_node"
+        output="screen">
+  </node>
+
+</launch>

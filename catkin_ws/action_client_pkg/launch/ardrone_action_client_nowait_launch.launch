@@ -1,0 +1,5 @@
+<launch>
+    <!-- My Package launch file -->
+    <node pkg="action_client_pkg" type="ardrone_action_client_nowait" name="ardrone_action_client_nowait"  output="screen">
+    </node>
+</launch>

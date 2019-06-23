@@ -1,0 +1,5 @@
+<launch>
+    <!-- My Package launch file -->
+    <node pkg="action_client_pkg" type="ardrone_action_client_wait" name="ardrone_action_client_wait"  output="screen">
+    </node>
+</launch>
