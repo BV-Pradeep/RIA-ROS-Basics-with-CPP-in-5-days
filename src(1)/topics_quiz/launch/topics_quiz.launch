@@ -1,5 +1,0 @@
-<launch>
-    <!-- My Package launch file -->
-    <node pkg="topics_quiz" type="simple_publisher_subscriber" name="topics_quiz_node"  output="screen">
-    </node>
-</launch>
